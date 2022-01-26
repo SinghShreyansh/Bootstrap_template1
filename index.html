@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" >
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="javaIcon.jfif" style="height: 32px; width: 32px; object-fit: contain; padding: 2px;" alt="logo">
+                <span style="font-weight: 700;
+                ">Bootstrap</span>
+            </a>
+            <button class="navbar-toggler " type="button" aria-expanded="false" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./team.html" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./connect.html" class="nav-link">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <!-- Image slider -->
+    <div id="slides" class="carousel slide" data-bs-ride="carosel" >
+        <ul class="carousel-indicators">
+            <li data-bs-target="#slides" data-bs-slide-to="0" class="active" ></li>
+            <li data-bs-target="#slides" data-bs-slide-to="1"></li>
+            <li data-bs-target="#slides" data-bs-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="carosel1.jpg"  style="object-fit:cover; width: 100vw; height: 60vh; opacity: .9; z-index: -1;" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                  <h1 class="display-2 " >Bootstrap</h1>
+                  <h3>Complete Website Layout</h3>
+                  <button type="button" class="btn btn-success btn-md ">View Demo</button>
+                  <button type="button" class="btn btn-primary btn-md ">Get Started</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="carosel2.jpg" class="d-block w-100" style="object-fit:cover; width: 100vw; height: 60vh; opacity: .9; z-index: -1;" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="carosel3.jpg" class="d-block w-100" style="object-fit:cover; width: 100vw; height: 60vh; opacity: .9; z-index: -1;" alt="...">
+            </div>
+          </div>
+         
+    </div>
+
+    <!-- Jumbotron -->
+     <div class="container-fluid my-3">
+         <div class="row jumbotron">
+             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                 <p class="lead">A web hosting service allows individuals and organizations to make their website accessible via the World Wide Web.</p>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                 <a href="#" ><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+             </div>
+         </div>
+     </div>
+
+    <!-- Welcome section -->
+         <div class="container-fluid mt-5">
+             <div class="row welcome text-center">
+                 <h1 class="text-warning bg-dark">GET BEST SOLUTION HERE!</h1>
+             </div>
+         </div>
+
+    <!-- two Column and two row Section -->
+    <div class="grid m-5">
+        <div class="g-col-6">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary">World</strong>
+                      <h3 class="mb-0">Install python in window</h3>
+                      <div class="mb-1 text-muted">Jan 25</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <img class="bd-placeholder-img" width="200" height="250" src="python.icon.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success">Design</strong>
+                      <h3 class="mb-0">Say hello😃in Java</h3>
+                      <div class="mb-1 text-muted">Nov 11</div>
+                      <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <img class="bd-placeholder-img" width="200" height="250" src="javaIcon.jfif" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="g-col-6">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary">World</strong>
+                      <h3 class="mb-0">Install ruby in window</h3>
+                      <div class="mb-1 text-muted">Jan 26</div>
+                      <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <img class="bd-placeholder-img" width="200" height="250" src="rubyIcon.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success">Design</strong>
+                      <h3 class="mb-0">Set design with saas</h3>
+                      <div class="mb-1 text-muted">Nov 30</div>
+                      <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                      <img class="bd-placeholder-img" width="200" height="250" src="sassIcon.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <!--footer-->
+      <footer class="container border-top border-dark">
+        <p>© 2021–2022 Company, Inc. · <a >Privacy</a> · <a>Terms</a></p>
+      </footer>
+
+</body>
+
+</html>
